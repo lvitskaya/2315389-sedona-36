@@ -50,9 +50,41 @@
 <main class="main-inner">
 <header class="inner-header">
     <h1 class="inner-header-title">Гостиницы Седоны</h1>
-</header>
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs-item">
+        <a class="breadcrumbs-link">На глвную</a>
+         <!-- Здесь должена быть иконка -->
+      </li>
+    </ul>
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs-item">
+        <a class="breadcrumbs-link">></a>
+         <!-- Здесь должена быть иконка -->
+      </li>
+    </ul>
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs-item">
+        <a class="breadcrumbs-link">Гостиницы</a>
+      </li>
+    </ul>
+  </header>
 
-     <p>Гостиницы</p>
+<section class="catalog-products">
+   <h2 class="visually-hidden">Фильтр для выбора гостиницы</h2>
+<form class="catalog-filter" action="https://echo.htmlacademy.ru" method="get">
+  <fieldset class="catalog-filter-group">
+    <legend class="catalog-filter-title">Инфраструктура</legend>
+  </fieldset>
+  <fieldset class="catalog-filter-group">
+    <legend class="catalog-filter-title">Тип жилья</legend>
+  </fieldset>
+
+  <button class="button" type="submit">Показать</button>
+</form>
+</section>
+
+
+
      <p>Инфраструктура:</p>
      <ul>
       <li>Бассейн</li>
