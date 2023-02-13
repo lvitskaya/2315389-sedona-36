@@ -124,14 +124,21 @@
     </ul>
   </fieldset>
 <button class="button" type="submit">Показать</button>
-<section class="benefits">
-<p class="benefits-item">Найдено гостинец:38</p>
+
+<div class="#">
+<h2 class="visually-hidden">Сортировка</h2>
+<p class="benefits-item">Найдено гостиниц:</p>
+<span class="benefits-number">38</span>
+</div>
+
+<div class="#">
 <select class="select-control" aria-label="Сортировка">
   <option value="cheap">Сначала дешевое</option>
   <option value="expensive">Сначала дорогое</option>
 </select>
-</section>
+</div>
 
+<div class="#">
 <a href="#" class="button button-light">
   <span class="visually-hidden">Показать карточки</span>
 </a>
@@ -141,6 +148,7 @@
 <a href="#" class="button button-light">
   <span class="visually-hidden">Показать список</span>
 </a>
+</div>
 
 <ul class="product-list">
   <li class="product-card">
@@ -201,12 +209,13 @@
 </li>
 </ul>
 
+
 <section class="newsletter">
 <h2>Подпишитесь на рассылку</h2>
 <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
 <label>
   <input class="field" placeholder="Ваш e-mail">
-    <button class="newsletter-button" type="submit">ПОДПИСАТЬСЯ</button>
+    <button class="newsletter-button" type="submit">Подписаться</button>
   </label>
 </section>
 </main>
@@ -232,10 +241,11 @@
      </li>
     </ul>
     </section>
+
     <section class="footer-contacts">
      <h2 class="visually-hidden">Телефон для связи</h2>
     <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-    <img class="footer-contacts-logo" src="#" alt="Логотип htmlacademy">
+    <img class="footer-contacts-logo" src="images/svg/logo-htmlacademy.svg" alt="Логотип htmlacademy.">
     </section>
    </footer>
 </body>
