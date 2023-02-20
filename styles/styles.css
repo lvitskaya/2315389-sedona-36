@@ -25,21 +25,6 @@ body {
 }
 
 .visually-hidden {
-  display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -51,6 +36,22 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.navigation {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* HEADER */
 
