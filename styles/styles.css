@@ -65,11 +65,41 @@ body {
     text-transform: uppercase;
 }
 
+.text {
+  background-color: #81b3d3;
+  background-image: url("../images/view/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat:no-repeat ;
+}
 
+/* .text-image {
+  margin: 0 auto;
+  display: block;
+}
+ */
+.small {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
+.small-description {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
 
+.advantages-list {
+  list-style: none;
+  padding-left: 0;
+}
 
-
+.advantages-item {
+  background-color: #83b3d31f;
+}
 /* HEADER */
 
 /* MAIN */
