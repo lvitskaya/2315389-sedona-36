@@ -42,11 +42,28 @@ body {
   font-size: 20px;
 }
 
+.navigation-item {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  list-style: none;
+}
 
+.navigation-link {
+  text-decoration: none;
+  color: #000000;
+}
 
-
-
-
+.button {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    background-color: #756157;
+    border-radius: 4px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 
 
