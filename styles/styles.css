@@ -69,7 +69,7 @@ body {
   background-color: #81b3d3;
   background-image: url("../images/view/index-background.jpg");
   background-size: 100% auto;
-  background-repeat:no-repeat ;
+  background-repeat: no-repeat;
 }
 
 /* .text-image {
@@ -92,14 +92,50 @@ body {
   color: #333333;
 }
 
-.advantages-list {
-  list-style: none;
-  padding-left: 0;
+.advantages-item {
+  background-color: #83b3d3;
 }
 
-.advantages-item {
-  background-color: #83b3d31f;
+.advantages-title{
+  background-color: #82b3d3;
 }
+
+.come {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+.come-description {
+  text-align: center;
+}
+
+.services-list {
+  list-style: none;
+  text-align: center;
+}
+
+.services-item {
+  background-color: #83b3d3;
+}
+
+.services-description {
+  background-color: #ffffff;
+}
+
+.search-button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+}
+
+
 /* HEADER */
 
 /* MAIN */
