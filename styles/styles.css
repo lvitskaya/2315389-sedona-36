@@ -51,10 +51,10 @@ body {
 
 .navigation-link {
   text-decoration: none;
-  color: #000000;
+  color: inherit;
 }
 
-.button {
+.navigation-button {
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
@@ -72,11 +72,6 @@ body {
   background-repeat: no-repeat;
 }
 
-/* .text-image {
-  margin: 0 auto;
-  display: block;
-}
- */
 .small {
   font-size: 30px;
   font-weight: 700;
@@ -135,20 +130,68 @@ body {
   background-color: #756157;
 }
 
+.newsletter {
+  background-color: #81b3d3;
+  background-image: url("../images/view/subscribe.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
 
-/* HEADER */
+.footer-social {
+  list-style: none;
+}
 
-/* MAIN */
+.contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}
 
-/* COOL TEXT */
+.catalog-filter-pic {
+  background-color: #000000;
+  background-image: url("../images/view/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
 
+.inner-header-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  color: #ffffff;
+}
 
-/* body {
- font-family: ;
- font-size: ;
- line-height: ;
-color:#ffff;
-background-color: #0000; */
-}  */
+.breadcrumbs {
+  list-style: none;
+}
 
-/* FOOTER */
+.breadcrumbs-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.catalog-filter-list {
+  list-style: none;
+}
+
+.catalog-filter-item {
+  display: block;
+}
+
+.catalog-filter-list {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none;
+  color: #000000;
+}
