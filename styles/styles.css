@@ -195,3 +195,13 @@ body {
   text-decoration: none;
   color: #000000;
 }
+
+.catalog-filter-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #756157;
+}
