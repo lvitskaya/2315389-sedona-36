@@ -21,7 +21,12 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  background: white;
+  width: 1200;
 }
 
 .visually-hidden {
@@ -130,7 +135,7 @@ body {
   background-color: #756157;
 }
 
-.newsletter {
+.subscribe {
   background-color: #81b3d3;
   background-image: url("../images/view/subscribe.jpg");
   background-size: 100% auto;
