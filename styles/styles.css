@@ -103,7 +103,10 @@ body {
   color: white;
 }
 
-.advantages-title {
+.advantages-title,
+.advantages-title-square,
+.advantages-title-road,
+.advantages-title-tourists {
   text-transform: uppercase;
 }
 
@@ -135,6 +138,12 @@ body {
   background-color: #ffffff;
 }
 
+.services-title-house,
+.services-title-food,
+.services-title-box {
+  text-transform: uppercase;
+}
+
 .search-button {
   font-size: 20px;
   font-weight: 700;
@@ -156,9 +165,20 @@ body {
   color: white;
 }
 
+.subscribe-button {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+}
+
 .subscribe-title {
   text-transform: uppercase;
 }
+
+.field {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+}
+
 .footer-social {
   list-style: none;
 }
