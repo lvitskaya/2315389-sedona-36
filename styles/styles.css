@@ -192,11 +192,17 @@ body {
    text-align: center;
 }
 
-.catalog-filter-pic {
-  background-color: #000000;
+.catalog-filter-form {
+  color: #ffffff;
   background-image: url("../images/view/mountain.jpg");
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  background-color: #000000;
   background-repeat: no-repeat;
   background-size: 100% auto;
+  background-position: center;
 }
 
 .inner-header-title {
