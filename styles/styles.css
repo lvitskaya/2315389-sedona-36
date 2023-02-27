@@ -179,15 +179,17 @@ body {
   font-size: 18px;
 }
 
-.footer-social {
-  list-style: none;
-}
-
-.contacts-phone {
+.footer-logo {
   font-size: 40px;
   line-height: 40px;
   color: #000000;
   text-decoration: none;
+  text-align: right;
+}
+
+.footer-phone {
+   color: #000000;
+   text-align: center;
 }
 
 .catalog-filter-pic {
@@ -201,7 +203,7 @@ body {
   font-size: 60px;
   font-weight: 700;
   line-height: 78px;
-  color: #ffffff;
+  color: white;
 }
 
 .breadcrumbs {
@@ -245,9 +247,4 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #756157;
-}
-
-.footer-contacts {
-  text-align: center;
-  color: black;
 }
